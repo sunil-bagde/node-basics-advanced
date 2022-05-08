@@ -1,3 +1,8 @@
+// node --inspect-brk 06-bug.js
+
+
+// open chrome  chrome://inspect
+
 function convertArrayToObject(arr) {
   return arr.reduce((curr, acc) => {
     acc[curr[0]] = curr[1];
